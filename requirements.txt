@@ -1,0 +1,18 @@
+# Core libraries
+numpy
+matplotlib
+tensorflow>=2.13
+scikit-learn
+tqdm
+
+
+
+# Optional for web interface
+flask
+Explanation
+numpy → Array operations, handling embeddings
+matplotlib → Display query and result images in notebook
+tensorflow>=2.13 → For ResNet50 feature extraction and model operations
+scikit-learn → Cosine similarity for finding similar images
+tqdm → Progress bars when generating embeddings
+flask → Optional, only needed if you implement a web interface
